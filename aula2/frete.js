@@ -5,4 +5,4 @@ let peso = Number(prompt("Digite o peso do produto que deseja transportar: "));
 let distância = Number(prompt("Digite a distância do trajeto: "));
 let custo = peso * 0.5 + distância * 0.1;
 
-console.log("O custo total é: R$" + custo.toFixed(2))
+console.log("O custo total é: R$" + custo.toFixed(2));
